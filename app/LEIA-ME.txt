@@ -1,0 +1,49 @@
+LABORATÓRIO — 14/11-K
+
+NOVO 14/11-K: ➕ Importar agora aceita APK (.apk/.aab). O APK é um zip por dentro: a tela do app fica em assets/public/ — dá para ver como o app foi feito no 🔗 Mapa e abrir na 🧪 Prévia.
+
+NOVO 14/11-J: as ferramentas da aba 🧰 Ferramentas (Meu Chat, Projeto Lab, AI Code Studio, Montador, Colador, Faxina de Repetidos, Picotador…) agora ocupam a TELA INTEIRA. Antes ficavam presas numa caixinha de meia tela (um erro no estilo).
+
+NOVO 14/11-I: a tela agora ocupa o monitor inteiro (não fica mais só no meio) e tem a barrinha no canto de baixo: ⬅ voltar · ➡ avançar entre as abas · 🔍− 🔍+ diminuir/aumentar a tela (fica guardado). Atalhos: Alt ← e Alt →.
+
+NOVO 14/11-H: 🧬 Combinar — pegue funções de códigos diferentes (inclusive o que o 🔪 Desmontar e o ✂️ Fatiador separaram) e monte um código novo. Ele traz sozinho o que cada pedaço precisa, avisa o que falta, monta index.html + pecas.js + estilos.css + FICHA.md, e o botão 🤖 manda a ficha completa para a IA.
+
+NOVO 13/11-G: ♻️ Recuperar agora lê as tabelas baixadas do banco do Replit (cada uma em CSV ou JSON): ementas, histórico da IA (pergunta e resposta), configurações (as chaves são tiradas), modelos, conversas, códigos.
+====================
+Abas: 📂 Projetos · 🗺️ Plano macro · ⚖️ Comparar A × B · 🔪 Desmontar · 🔗 Mapa · 🧪 Prévia · ✂️ Fatiador · ♻️ Recuperar · 🧸 Brincar · 🤖 IA · 📒 Memória · 💻 Terminal · 🧰 Ferramentas
+
+🔪 Desmontar .... (veio do Laboratório antigo) abre um HTML grande e mostra as partes, as funções, as cores e os problemas.
+                   ✂️ Picar separa em arquivos (css/ e js/) e TESTA as duas versões; "Abrir como projeto" cria um projeto NOVO
+                   (o original continua guardado).
+🔗 Mapa .......... quem chama quem: o que cada arquivo usa e quem usa ele. Extrai um pedaço com tudo que ele precisa.
+🧪 Prévia ........ roda a página juntando sozinha o CSS, o JS e os módulos ("um chama o outro"). Também junta arquivos soltos.
+✂️ Fatiador ..... corta um arquivo grande (HTML, JS, TSX, CSS, Python, MD) em fatias de 50 a 500 linhas SEM partir função.
+                   Contexto e anotação em cada fatia, prompt pronto para a IA, exporta em .md / .html / .zip,
+                   guarda como projeto e 🔁 junta de volta (o .md volta a ser o arquivo original, letra por letra).
+♻️ Recuperar .... abre o backup .json dos apps antigos (ou o snippets.csv da Replit), acha os códigos, páginas e conversas
+                   e transforma em arquivos de verdade (projeto, .zip ou .md). Chaves e senhas ficam de fora.
+                   Confira aqui ANTES de apagar o app antigo do celular.
+🧸 Brincar ...... o laboratório de brinquedo, para APRENDER: 📥 Caixa (joga tudo, até repetido), 🔁 Repetidos (acha os quase iguais,
+                   ⭐ a mais completa; as outras vão para lixeira/), 🧩 Montar (até 4 códigos lado a lado, cada um na sua
+                   caixinha; 📤 Pegar texto → 🖐️ Mão → 📥 Colar no outro; a tomada Brinquedo.enviar/receber) e 🎓 Aprender
+                   (a IA explica como para iniciante, dá experimentos e liga a tomada no seu código).
+
+🤖 IA ............ é o seu Meu Chat aqui dentro (chaves, 🦙 Ollama, voz, internet, fotos, memória).
+                   Os botões 📎 colocam na caixa do chat o PLANO do projeto, a MEMÓRIA, a COMPARAÇÃO ou um ARQUIVO.
+📒 Memória ....... o caderno de cada projeto (objetivo, o que funciona, o que falta, decisões) + um caderno geral.
+                   Salva sozinho. 📎 manda para a IA.
+💻 Terminal ...... com a MESMA lógica do Mini SK (a que não cai):
+                   ▶ Ligar tudo = conecta no Termux → liga a ponte (em pedacinhos) → manda o projeto → entra na pasta.
+                   Religa sozinho se a conexão ou a ponte caírem. 🚀 Rodar o projeto, 🔁 servidor sem cair, 🦙 Ollama,
+                   ⬇ Trazer, 👁 ver a porta, 🤖 Perguntar à IA (manda a saída do terminal).
+                   NO COMPUTADOR: abra o Laboratório pelo Mini SK do PC (💻 Terminal → 🌐 Abrir como app):
+                   aí ele usa o terminal e a ponte do computador (os projetos vão para C:\Mini-SK\NOME).
+🧰 Ferramentas ... Montador Universal, Picotador, Faxina, Arrumador, Numerador, Preparador, Colador, Meu Chat
+                   e os seus códigos antigos — todos abrem aqui dentro.
+
+COMO ABRIR
+- O melhor: publique (GitHub Pages / Netlify) ou abra pelo Mini SK (▶️ Preview / 🚀 Publicar).
+- As ferramentas e o chat ficam em pastas (ferramentas/, kits/): abrir só o index.html solto pelo
+  gerenciador de arquivos pode não carregar elas.
+
+OS SEUS DADOS ficam no navegador (projetos, memória, conversas do chat). Não limpe os "dados do site".
